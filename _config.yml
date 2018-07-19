@@ -1,10 +1,10 @@
 # Site settings
-title: 
+title: CLI creation
 header-img: img/home-bg.png
 email: joshmulloy1@gmail.com
 copyright_name: jmulloy
 description: > # this means to ignore newlines until "baseurl:"
-  
+  ITS ALIVE!!
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  jmulloy

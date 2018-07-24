@@ -7,7 +7,7 @@ permalink:  object_classes_instances
 
 Objects, classes, methods. What are they? what do they do? how are they Used? Classes are defined to hold dfferent pieces of code. Some of which are only used for that specific class where as others can be used within different methods. For example we can use the Dog Class to store different pieces of information about our dogs. This information can differ between all of our dogs we create. 
 
-Lets say we create 2 new dogs using our Dog Class. The first is named "Doggo" and the other is named "Pupper". Both Doggo and Pupper are OBJECTS of the Dog Class even though their information isnt the exact same. Both dogs should have the same abilities such as run, walk, jumpm, bark, etc. However there attributers of what makes them a dog will be different. the abilities that I have listed above will be the INSTANCES of the Dog class. Which the Instances we have defined within the Dog class are available for any of our Dog objects to use within the class. 
+Lets say we create 2 new dogs using our Dog Class. The first is named "Doggo" and the other is named "Pupper". Both Doggo and Pupper are OBJECTS of the Dog Class even though their information isnt the exact same. Both dogs should have the same abilities such as run, walk, jump, bark, etc. However their attributes of what makes them a dog will be different (such as height, breed, name, etc). the abilities that I have listed above will be the INSTANCES of the Dog class. Which the Instances we have defined within the Dog class are available for any of our Dog objects to use within the class. 
 
 There are a few differences between Class and Instance methods, lets take a look and see what separates them from each other. Most Class Methods are defined by using "def self.method_name" and they are used when not dealing with in an iniividual instance of that class. An instance method on the other hand requires a new instance of the class to be created in order to execute the code. Using the Example from Above. I creat a new instance of the Dog Class named Doggo, I would use the Instance method of #bark to teach Doggo how to bark. 
 
@@ -25,14 +25,27 @@ Def initialize (name)
 @name = name
 end
 
-Dog.new = "Doggo"
-
-def bark
-  puts "bark"
+def name 
+   @name
 end
 
+
+   def bark
+     puts "woof"
+  end
 end
+
+Doggo = Dog.new("doggo"
+
+doggo.name
+=> "doggo"
+
+
 
 Doggo.bark
-#returns bark
+# => "woof"
+
+
+
+
 ```

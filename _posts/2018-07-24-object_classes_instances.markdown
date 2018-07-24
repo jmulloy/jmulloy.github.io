@@ -17,7 +17,8 @@ In conclusion, Class methods are what define our objects or classes within our p
 
 Coding Example:
 
-```Class Dog
+```
+Class Dog
 attr_accessor :name
 
 Def initialize (name)
@@ -33,4 +34,5 @@ end
 end
 
 Doggo.bark
-#returns bark```
+#returns bark
+```

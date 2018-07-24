@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Object, Classes, Instances..."
-date:       2018-07-24 16:21:21 +0000
+date:       2018-07-24 12:21:21 -0400
 permalink:  object_classes_instances
 ---
 

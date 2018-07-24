@@ -54,9 +54,9 @@ doggo.name
 
 Dog.all
 #We call the class of Dog on the class method of .all because we are wanting to pull ALL instances/objects of the dogs that we have created inside of our Dog class. Class methods can only be called on the class in which it is defined in. 
-```
 
-```
+
+
 doggo.bark
 # => "woof"
 ```

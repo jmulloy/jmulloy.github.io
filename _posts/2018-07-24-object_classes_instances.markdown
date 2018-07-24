@@ -18,34 +18,39 @@ In conclusion, Class methods are what define our objects or classes within our p
 Coding Example:
 
 ```
-Class Dog
+class Dog
 attr_accessor :name
 
-Def initialize (name)
+def initialize (name)
 @name = name
 end
 
-def name 
-   @name
-end
+   def name 
+      @name
+   end
 
 
    def bark
      puts "woof"
   end
+
+
 end
-
-Doggo = Dog.new("doggo"
-
-doggo.name
-=> "doggo"
-
-
-
-Doggo.bark
-# => "woof"
-
-
-
+```
 
 ```
+doggo = Dog.new("doggo")
+
+doggo.name
+#=> "doggo"
+
+
+
+doggo.bark
+# => "woof"
+```
+
+
+
+
+

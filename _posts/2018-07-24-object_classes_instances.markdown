@@ -14,3 +14,23 @@ There are a few differences between Class and Instance methods, lets take a look
 Classes are also known as Objects within Ruby. This means any class method that is defined only exist within that class in which they are defined, or within the object. You can use the "self" to define a class method because it will always refer to the current object/class that you are working inside of. Now if we wanted to define a method that was an instance of the class we could have a bark class (in reference to our previous example) that would teach Doggo how to bark. We will only be able to call on the instance of bark within our Dog class. However we can always reference another class by calling on it within a different class. 
 
 In conclusion, Class methods are what define our objects or classes within our program. Instance methods are used to help define methods that can be used to give our objects in our class objects (in this case dogs) different attributes. 
+
+Coding Example:
+
+```Class Dog
+attr_accessor :name
+
+Def initialize (name)
+@name = name
+end
+
+Dog.new = "Doggo"
+
+def bark
+  puts "bark"
+end
+
+end
+
+Doggo.bark
+#returns bark```

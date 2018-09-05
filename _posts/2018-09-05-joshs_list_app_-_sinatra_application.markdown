@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Josh's List App - Sinatra Application"
-date:       2018-09-05 14:44:28 +0000
+date:       2018-09-05 10:44:28 -0400
 permalink:  joshs_list_app_-_sinatra_application
 ---
 

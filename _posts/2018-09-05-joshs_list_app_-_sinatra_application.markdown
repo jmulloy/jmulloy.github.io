@@ -31,14 +31,14 @@ I did use multiple resoucres online to clarify my understanding of how the contr
 
 Method	General use-case example
 
-get()	- Performing basic HTTP GET requests like loading pages
-post() -	Used when posting form data
-put() -	Used when updating resources
-patch()	- Similar to post(), but used when updating one field of a resource
-delete() -	Used when deleting resources
-options() -	Determine options available for an associated resource
-link() -	Link relationships between existing resources
-unlink() -	Unlink relationships between existing resources
+* get()	- Performing basic HTTP GET requests like loading pages
+* post() -	Used when posting form data
+* put() -	Used when updating resources
+* patch()	- Similar to post(), but used when updating one field of a resource
+* delete() -	Used when deleting resources
+* options() -	Determine options available for an associated resource
+* link() -	Link relationships between existing resources
+* unlink() -	Unlink relationships between existing resources
 
 By the end of the application construction I was truly impressed with my personal progress throughout the course of being a student here at Flatiron. I am now confident in my abilites to code routes and controllers for different applications. I realized the importance of the Sinatyra section from a programmers perspective from the start to finish of my project. Even after hours of frustration, I was able to finally get my code working the way I originally planned. This project was a true test of my skills and now that I am almost across the finish line my excitement has grown to continue on my path to become the best developer I possibly can. This project not only tested my abilities and skills as a programmer but also my patience to stay calm and continuously work towards getting my program to function flawlessly. I am looking forward to more challenges and projects in the future throughout the rest of my time here at Flatiron!
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Recipes, Rails, Magic, and More!"
-date:       2018-10-31 15:45:25 +0000
+date:       2018-10-31 11:45:26 -0400
 permalink:  recipes_rails_magic_and_more
 ---
 

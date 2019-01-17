@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Off the rails and into React/Redux"
-date:       2019-01-17 22:59:12 +0000
+date:       2019-01-17 17:59:13 -0500
 permalink:  off_the_rails_and_into_react_redux
 ---
 

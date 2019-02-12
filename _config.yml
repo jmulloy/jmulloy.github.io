@@ -1,15 +1,14 @@
 # Site settings
-title: CLI creation
+author: Josh Mulloy
+title: A Journey Into Coding
 header-img: img/home-bg.png
 email: joshmulloy1@gmail.com
-copyright_name: jmulloy
+copyright_name: Josh Mulloy
 description: > # this means to ignore newlines until "baseurl:"
-  ITS ALIVE!!
+  A Blog about Code
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  jmulloy
-learn_profile: jmulloy
-email_username: joshmulloy1@gmail.com
 
 # Build settings
 markdown: kramdown

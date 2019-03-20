@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Let's Git A Better Understanding"
-date:       2019-03-20 12:54:49 +0000
+date:       2019-03-20 08:54:50 -0400
 permalink:  lets_git_a_better_understanding
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Using .map() in Javascript"
-date:       2019-04-19 13:08:14 +0000
+date:       2019-04-19 09:08:15 -0400
 permalink:  using_map_in_javascript
 ---
 

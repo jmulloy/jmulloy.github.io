@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Upgrading Node For React"
-date:       2019-05-09 14:55:10 +0000
+date:       2019-05-09 10:55:11 -0400
 permalink:  upgrading_node_for_react
 ---
 
@@ -12,7 +12,7 @@ However, when I ran the command I was able to get everything started and my term
 
 Next step I was going to try was to update Node through homebrew. Homebrew was something that I installed a few months back. I haven't really thought about needed to update it but I read online that the node version can be updated by updating homebrew itself. The first step in this process was to run `brew install node`. After the install took place I ran 2 additional commands in the following order, 1. `brew update` and then 2. `brew upgrade node`. This resulted in both good news and bad news. The good news was that I updated homebrew but the bad news was the node didn't update. Again, back to square one. 
 
-The FInal step I tried was to update the nvm directly. This unlike the other steps had a single command line that needed to be ran. The code I entered on the command line was `nvm install node --reinstall-packaghes-from=node`. After running this command the terminal started updating lots of things on the back end and I patiently waited for the status bar to reach 100% and finish the installation itself. After a few seconds of waiting, the install took place and it was time for the moment of truth. I ran the `node -v` command and the computer outputted that my node version had been updated to `v12.2.2`. 
+The FInal step I tried was to update the nvm directly. This unlike the other steps had a single command line that needed to be ran. The code I entered on the command line was `nvm install node --reinstall-packages-from=node`. After running this command the terminal started updating lots of things on the back end and I patiently waited for the status bar to reach 100% and finish the installation itself. After a few seconds of waiting, the install took place and it was time for the moment of truth. I ran the `node -v` command and the computer outputted that my node version had been updated to `v12.2.2`. 
 
 Now that I was able to successfully update my Node locally on my mac, I was ready to try and get my new project started. I circled back to the original command I wanted to run which was `npx create-react-app <app_name>`. The computer-executed the command appropriately and within minutes I was able to open up the project in my local environment and start coding! One big thing I learned from this process is to continue to research and try everything you can to achieve the functionality you are wanting. The internet is a wonderful place to find resources and even learn new/easier ways to execute code!
 

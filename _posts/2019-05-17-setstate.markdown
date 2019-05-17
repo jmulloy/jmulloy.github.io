@@ -1,0 +1,32 @@
+---
+layout: post
+title:      "setState()"
+date:       2019-05-17 13:03:05 +0000
+permalink:  setstate
+---
+
+
+There are plenty of methods that developers have used or use on a daily or even an hourly basis. One of the most important ones is the setState() method within React. If you are familiar with the React framework, then you should be aware that state is a very important part to a React Application. For those of you that arent too familiar with React, we can use `render` to tell the application what we want to display on the screen. Usually (at least in my experience), the state will more than likely have a starting state and will need to be updated if the user interacts with a specific element within the application. When these user driven actions take place we need to tell the application how to update the state and we can do so with the setState() methos in React. Enough chit chat lets look at some code. 
+
+```
+class PlateForm extends Component {
+
+  constructor(props) {
+    super(props);
+
+    this.handleInputChange = this.handleInputChange.bind(this);
+		
+    this.state = {
+      name: '',
+      description: ''
+    };
+  }
+	
+  handleInputChange(e) {
+    this.state.name = e.target.value;
+  }
+}
+```
+
+
+As you can see within the code above we have an original declaration of state in our code. If we want to change the original state of the code we will need to tell the application to set the state to a new value that can be generated based on the user’s activity within the application. If we dont tell the application to update the state by using setState() then our application wont do anything when the user interacts with the application. In short, without setState() method the application wouldnt change anything and the data being persisted to the browser will stay the same regardless of what the user were to do. 
